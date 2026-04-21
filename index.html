@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sajj | Intimately Curated Jewelry</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&amp;family=Noto+Serif:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#dfbfbf",
+                        "secondary-fixed": "#e5e2df",
+                        "secondary-container": "#e5e2df",
+                        "error-container": "#ffdad6",
+                        "on-surface-variant": "#4e4639",
+                        "surface-container-highest": "#e9e1dc",
+                        "on-background": "#1e1b18",
+                        "surface-container-high": "#efe6e2",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed": "#fddada",
+                        "on-tertiary-fixed": "#291717",
+                        "surface-dim": "#e1d8d4",
+                        "background": "#fff8f5",
+                        "on-primary-fixed": "#261900",
+                        "surface-bright": "#fff8f5",
+                        "outline": "#7f7667",
+                        "on-tertiary": "#ffffff",
+                        "tertiary": "#715858",
+                        "surface-tint": "#775a19",
+                        "primary-fixed": "#ffdea5",
+                        "on-secondary-container": "#666462",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#5d4201",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#e9c176",
+                        "primary": "#775a19",
+                        "surface": "#fff8f5",
+                        "on-primary-container": "#4e3700",
+                        "on-surface": "#1e1b18",
+                        "secondary": "#605e5c",
+                        "secondary-fixed-dim": "#c9c6c3",
+                        "inverse-primary": "#e9c176",
+                        "on-secondary-fixed": "#1c1b1a",
+                        "surface-variant": "#e9e1dc",
+                        "surface-container": "#f5ece7",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#fbf2ed",
+                        "inverse-on-surface": "#f8efea",
+                        "inverse-surface": "#34302c",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-fixed-variant": "#484745",
+                        "primary-container": "#c5a059",
+                        "on-tertiary-container": "#4c3536",
+                        "on-error": "#ffffff",
+                        "outline-variant": "#d1c5b4",
+                        "tertiary-container": "#bd9e9e",
+                        "on-tertiary-fixed-variant": "#584141"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px",
+                        "container-max": "1280px",
+                        "base": "8px",
+                        "section-padding": "120px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Manrope"],
+                        "label-caps": ["Manrope"],
+                        "h3": ["Noto Serif"],
+                        "body-lg": ["Manrope"],
+                        "h2": ["Noto Serif"],
+                        "h1": ["Noto Serif"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                        "h3": ["24px", {"lineHeight": "1.4", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "h2": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+                        "h1": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            font-size: 20px;
+        }
+        .fine-line-motif {
+            background-image: radial-gradient(circle at 1px 1px, #775a19 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-container overflow-x-hidden">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 backdrop-blur-md border-b border-stone-200/50">
+<div class="flex justify-between items-center px-8 py-6 w-full max-w-screen-2xl mx-auto">
+<div class="flex-1 hidden md:flex gap-8">
+<a class="font-label-caps text-stone-600 hover:text-stone-900 transition-opacity duration-300" href="#">Collections</a>
+<a class="font-label-caps text-stone-600 hover:text-stone-900 transition-opacity duration-300" href="#">Craftsmanship</a>
+<a class="font-label-caps text-stone-600 hover:text-stone-900 transition-opacity duration-300" href="#">Our Story</a>
+</div>
+<div class="text-2xl font-light tracking-[0.2em] text-stone-800 uppercase font-h1">Sajj</div>
+<div class="flex-1 flex justify-end items-center gap-6">
+<button class="hover:opacity-70 transition-opacity duration-300 text-amber-700">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+</button>
+<button class="hover:opacity-70 transition-opacity duration-300 text-amber-700">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<main class="relative min-h-screen flex flex-col items-center justify-center pt-24 pb-12 px-margin-mobile md:px-margin-desktop bg-surface overflow-hidden">
+<!-- Subtle Motif Background Decor -->
+<div class="absolute inset-0 fine-line-motif opacity-[0.03] pointer-events-none"></div>
+<div class="absolute top-1/4 -left-20 w-64 h-64 border border-primary/10 rounded-full blur-2xl"></div>
+<div class="absolute bottom-1/4 -right-20 w-80 h-80 border border-tertiary/10 rounded-full blur-3xl"></div>
+<!-- Hero Content Center -->
+<div class="relative z-10 text-center max-w-3xl space-y-8">
+<div class="space-y-4">
+<span class="font-label-caps text-primary tracking-[0.3em] uppercase block">Premiering Winter 2024</span>
+<img alt="SAJJ Logo" class="mx-auto w-auto object-contain mb-8 h-64 md:h-80 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida/ADBb0uhTrFZs93oK1OnlJOEFm3K9hZFfxbmPi-E3v-mkMXjXcJn0GV6uUaUmSjn3t1zWiBQFA5fXtBdv2RtELcwub_mbc4HAwoDW3bhQzKDbExdugPIZynmIgJe8FUlFoSvWbAPUHPgFurwJDCu4lxIm_ChBkaygeoGBxbK5bY5z9Y7iEK5P5R9mPN59iQAvjiXfAmFRJJlpvVYSH89Zeac8dW1vmQgZjdLUKr6rFUNw-GTMcz2x1NZO7glGvHSyKtnicIdnov5QktJNmrI"/>
+<p class="font-h3 text-tertiary italic">Because you deserve something special.</p>
+<p class="font-body-lg text-secondary max-w-lg mx-auto">Adorn yourself in quiet luxury. Intimately curated jewelry that bridges ancient craft and modern elegance.</p>
+</div>
+</div>
+<!-- Decorative Image Elements (Floating Lookbook style) -->
+<div class="hidden lg:block absolute left-12 top-1/2 -translate-y-1/2 w-48 aspect-[3/4] overflow-hidden">
+<img alt="Minimal Gold Ring" class="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCMJ6JheGeY0Zp-fdlGbddyUhHnNRGowY7TnXPwgur4CaVkrtL5iGYnyWvzIpAv3iPAvxiCLa1uzo_IHlG0BYrhcVgJXvnrjClLN1yDUgotzzXu79BnBJaRRnk-UOgmFGGwNDe74ChltA4Y32Uc8IQ-pRT3-_2ly2BlO7kpmce9tFpXmCcNXUprsbXU3HeqhEzEGj8Y6_K56binKrPZZsoNbaxtsgql_jLbgsM1ZkLt1rgy0ro9vDsJ24sVwUsw28figEmtsY7LeA2"/>
+</div>
+<div class="hidden lg:block absolute right-12 bottom-20 w-64 aspect-square overflow-hidden">
+<img alt="Gold Necklace Details" class="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBY7DdQrAXfeeSML5htXHWSc0p0QV-8ImxeKTxlvmZk9JEFMrTqd4PkarhPA_Mn-eS16hkQqV4Ga8uwIfSNF0itdI8laDs1DKWppseaOpGf5ruO144OpuIXFX9JugWZVhUu86qBWb3nOoJld9SMy5MvBD9C9TDCOw4mK2v_QuEox_cXaLeDqFGzIhiewb7LXgiBmtfCKkNChtBk69py4dUetS7PqEfu-6RWAaXI2A25K9qG0sRaDiXJs7WSuVDxWFyxo280qBTUOlsM"/>
+</div>
+</main>
+<!-- Social Preview Section (Bento Inspired) -->
+<section class="bg-surface-container py-section-padding px-margin-mobile md:px-margin-desktop">
+<div class="max-w-screen-xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<h2 class="font-h2 text-on-surface">The Visual Journal</h2>
+<p class="font-body-md text-secondary">Follow our journey @sajj_studio</p>
+</div>
+<a class="font-label-caps text-primary border-b border-primary/20 pb-1 hover:border-primary transition-all" href="https://www.instagram.com/sajj_jewels?igsh=MXZqb3J4N21udmM5eg%3D%3D&amp;utm_source=qr" target="_blank">VIEW INSTAGRAM</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="aspect-square overflow-hidden bg-surface relative group">
+<img alt="Studio Process" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUMfaML0_AEUwATL-T35Vxk0qkfoBkjIYsXLw0ZSpgTNTEbNiXpi1zhIcbrsdijKtAcdhLjrFCxac_hE8XGhE7kU7HRu9O-Bd2Y9Nw3Vhl_WczfVnzJYxUI2xnGdqktV-WQIjSMXOGcIiCnAhd2Opap86hcRK8_NEv4QUdoNxYg17GN8n6TwcG182jSyn4zIjyiofjJoGOwbqAJbqnmOjUbJuzIXcv796-_ZV3wa5Mv53DgkBmItIfYekfhCK081UaTho0aMpYFsAK"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="aspect-square overflow-hidden bg-surface relative group mt-8">
+<img alt="Material Focus" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBUPFOwpvATxfrmoEyy36PuTredT4NlPvkwbolZRlBEQ1S2o-6Kk0WutuaX1KIKFPNENvPUfvHmYYvmk49H275whTpBxK0TUWJOCWqk8vC8FOx1yRPv29tx8Yg6AIHbureaHqR9j45Nb0HBgjj7zd6z6Lg0sASOVx64GPXXb79AjkHHGo4oE7o1zIlSI6sE8FfsEVQ3o63UotdaUCiaK4t8J3MGoLVwZtJcP7wWd_MrVofAeEthBiClckPpWC4clwJKISycdHLkELq"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="aspect-square overflow-hidden bg-surface relative group">
+<img alt="Model Preview" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHJp0qnLqd7Vv-Xb8_UrI7PqmfV1S0TKSWpFUapLz1LsuUt8wbTWnskW9aOeFiiMh1gjFXBM8_hjAGMiqHK3R9WXs5jqmc7B-1m9nIYKD9x1VhHPX5ZJSjwkM8gHeYMbYnNDAnpkqGpL4wBVkZQKmzGcdVCdS3nu7tBJm3m2yhX2563HIZw8KYDhBW3MKnJBRvmLhCrVdsnPKbyYYBo5UBfrn8JLM9xRlUXwT-g_COJX4yDeAimHl6YqeX7TZg1oBPVuFunBEuqKlE"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="aspect-square overflow-hidden bg-surface relative group mt-8">
+<img alt="Inspiration" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMQkasaJf6pcI9EjPeC6s6o81jfIcDh9dxKCZ3xvXG4ufJ9ie5Vt1WP7xR2z_3xd-dR-9c_2Y9-z1COFJS3-4JqBBw0yQoCKhsvf9-PFGnKNKtlYmfAoe205_ibdk0-HKJGQJX5EPtJ22iTcKsdPLd2FVMxDjkvLSVkdq-pM-YEWQmtBhtRMDgkrjYz0JxFpHFdb9KdFIQwMBO2ShdlrTDEdpxRm96FRxNwiEJddEboWwEY10o09u7jJ0A-SC6bdbp9yhlvHc3RYSl"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-stone-100 w-full border-t border-amber-600/20">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 max-w-screen-2xl mx-auto">
+<div class="text-lg font-medium text-stone-700 font-h3 tracking-widest">SAJJ</div>
+<div class="flex gap-8">
+<a class="font-label-caps text-stone-500 hover:text-amber-700 transition-all" href="#">Privacy Policy</a>
+<a class="font-label-caps text-stone-500 hover:text-amber-700 transition-all" href="#">Terms of Service</a>
+<a class="font-label-caps text-stone-500 hover:text-amber-700 transition-all" href="#">Inquiry</a>
+</div>
+<div class="text-sm font-body-md text-stone-400">
+                © 2024 Sajj Jewelry. Intimately Curated.
+            </div>
+</div>
+</footer>
+<!-- Fine Gold Accent Divider (Floating) -->
+<div class="fixed bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-primary/30 to-transparent z-50"></div>
+</body></html>
